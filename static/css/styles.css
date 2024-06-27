@@ -6,6 +6,7 @@
     --hover-color: #555;
     --margin-gap-small: 1rem;
     --margin-gap-big: 2rem;
+    --bottom-space: 2rem;
 }
 
 body {
@@ -14,8 +15,8 @@ body {
     color: var(--text-dark);
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+    align-items: flex-start;
+    min-height: 100vh;
     margin: 0;
     padding: 1rem;
     transition: all 0.3s ease;
@@ -26,13 +27,14 @@ body {
     width: 100%;
     box-sizing: border-box;
     padding: 1rem;
+    padding-bottom: var(--bottom-space);
+    padding-top: calc(var(--margin-gap-big) + 4rem);
 }
 
 .toggle-controls {
     position: absolute;
     top: 1rem;
-    left: 50%;
-    transform: translateX(-50%);
+    right: 1rem;
 }
 
 .switch {
@@ -157,16 +159,23 @@ main {
 }
 
 #bio-text {
-    line-height: 1.6; /* Adjust the line height for better readability */
-    margin-bottom: 1rem; /* Add space below the paragraph */
-    white-space: pre-line; /* Preserve line breaks */
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    white-space: pre-line;
 }
 
 @media (max-width: 600px) {
+    .toggle-controls {
+        top: 0.5rem;
+        right: 1rem;
+        transform: none;
+    }
+
     #links {
         flex-direction: row;
         flex-wrap: wrap;
         gap: 0.5rem;
+        margin-bottom: var(--bottom-space);
     }
 
     #links a {
