@@ -1,3 +1,4 @@
-I'm a researcher with focus on Bioinformatics, Public Health, and Digital Epidemiology. I hold a PhD in Pathophysiology from the University of São Paulo, and I love developing innovative tools for Health Sciences, Bioinformatics, and Academia. Currently, I'm a visiting researcher at the Computational Systems Biology Laboratory (CSBL) at the Albert Einstein Israelite Institute of Education and Research in São Paulo, Brazil.
+I am a researcher with focus on Bioinformatics, Public Health, and Digital Epidemiology. I hold a PhD in Pathophysiology from the University of São Paulo, and I love developing innovative tools for Health Sciences, Bioinformatics, and Academia. I am currently engaged in epidemiological data analysis and technological development for public health projects at Instituto Todas Pelas Saúde (ITpS) in São Paulo, Brazil.
+
 
 I’ll be sharing updates about my work here, and I’m excited to collaborate, share ideas, and have some fun along the way!
