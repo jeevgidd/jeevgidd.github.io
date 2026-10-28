@@ -1,3 +1,5 @@
-Sou pesquisador com foco em Bioinformática, Saúde Pública e Epidemiologia Digital. Tenho doutorado em Fisiopatologia pela Universidade de São Paulo (USP) e sou apaixonado por desenvolver ferramentas inovadoras para as Ciências da Saúde, Bioinformática e o meio acadêmico. Atualmente, atuo com análise de dados epidemiológicos no Instituto Todos pela Saúde (ITpS).
+Sou pesquisador e engenheiro de software, atuando na interseção entre tecnologia, saúde pública e bioinformática. Sou doutor pela Universidade de São Paulo (USP), onde desenvolvi pesquisas em epidemiologia digital e vigilância de doenças.
 
-Aqui vou compartilhar novidades sobre meu trabalho, e estou empolgado para colaborar, trocar ideias e me divertir ao longo do caminho!
+Atualmente, no Instituto Todos pela Saúde (ITpS), desenvolvo e mantenho sistemas que ajudam a transformar dados complexos de saúde pública em informações úteis. Meu trabalho envolve desenvolvimento back-end, engenharia de dados e inteligência artificial aplicada, com interesse especial na criação de ferramentas que tornem a pesquisa e os dados de saúde pública mais acessíveis e úteis para a tomada de decisões.
+
+Por aqui, vou compartilhar meus projetos, pesquisas e aprendizados ao longo do caminho. Estou sempre aberto a colaborações, trocas de ideias e, claro, a me divertir um pouco enquanto desenvolvo novas soluções!
