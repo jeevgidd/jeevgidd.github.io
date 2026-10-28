@@ -105,15 +105,26 @@ button {
     border-radius: 50%;
 }
 
-#profile-name {
+.profile-heading {
     flex: 1 1 16rem;
     min-inline-size: 0;
+}
+
+#profile-name {
     margin: 0;
     font-size: var(--text-heading);
     font-weight: 600;
     line-height: 1.15;
     letter-spacing: -0.025em;
     text-wrap: balance;
+}
+
+.profile-subtitle {
+    margin-block: 0.625rem 0;
+    font-size: 0.9375rem;
+    line-height: 1.5;
+    color: var(--text-secondary);
+    text-wrap: pretty;
 }
 
 #bio-text {
