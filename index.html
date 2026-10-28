@@ -3,39 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="dark light">
     <title>Jeevan Giddaluru</title>
     <link rel="stylesheet" href="static/css/styles.css">
     <script src="static/js/script.js" defer></script>
     <link rel="icon" href="static/images/logos/favicon.ico" type="image/x-icon">
 </head>
-<body class="dark-mode">
+<body>
     <div class="container">
-        <div class="toggle-controls">
-            <label class="switch">
-                <input type="checkbox" id="theme-toggle">
-                <span class="slider"></span>
-            </label>
+        <div class="preferences">
+            <div class="toggle-language" role="group" aria-label="Biography language">
+                <button type="button" id="toggle-language-en" aria-pressed="true" aria-label="Read in English">EN</button>
+                <button type="button" id="toggle-language-br" aria-pressed="false" aria-label="Ler em português">BR</button>
+            </div>
         </div>
         <main>
-            <section id="bio">
-                <img src="static/images/photos/profile.jpg" alt="Jeevan" id="profile-pic">
-                <h1 id="profile-name">Jeevan Giddaluru</h1>
-                <div class="toggle-language">
-                    <button id="toggle-language-en">EN</button>
-                    <button id="toggle-language-br">BR</button>
-                </div>
-                <p id="bio-text"></p>
+            <section id="bio" aria-labelledby="profile-name">
+                <header class="profile-header">
+                    <img src="static/images/photos/profile.jpg" alt="Jeevan" id="profile-pic" width="88" height="88">
+                    <h1 id="profile-name">Jeevan Giddaluru</h1>
+                </header>
+                <div id="bio-text" lang="en" aria-live="polite"></div>
             </section>
-            <section id="links">
-                <a href="mailto:giddalurujeevan@gmail.com"><img src="static/images/logos/email.ico" alt="Email"></a>
-                <a href="https://www.linkedin.com/in/jeevangiddaluru/" target="_blank"><img src="static/images/logos/linkedin.ico" alt="LinkedIn"></a>
-                <a href="https://twitter.com/jeevangiddaluru" target="_blank"><img src="static/images/logos/x.ico" alt="Twitter"></a>
-                <a href="http://lattes.cnpq.br/7943858807147184" target="_blank"><img src="static/images/logos/lattes.ico" alt="Lattes CV"></a>
-                <a href="https://scholar.google.com/citations?user=ti1WaPUAAAAJ" target="_blank"><img src="static/images/logos/scholar.ico" alt="Google Scholar"></a>
-                <a href="https://www.webofscience.com/wos/author/record/G-8461-2016" target="_blank"><img src="static/images/logos/wos.ico" alt="Web of Science"></a>
-                <a href="https://orcid.org/0000-0001-8043-7162" target="_blank"><img src="static/images/logos/orcid.ico" alt="ORCID"></a>
-                <a href="https://www.researchgate.net/profile/Jeevan-Giddaluru" target="_blank"><img src="static/images/logos/rg.ico" alt="ResearchGate"></a>
-            </section>
+            <nav id="links" aria-label="Contact and research profiles">
+                <button type="button" id="copy-email" data-email="giddalurujeevan@gmail.com" aria-label="Copy email address" title="giddalurujeevan@gmail.com">
+                    <span id="copy-email-label">Email</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <rect x="9" y="9" width="12" height="12" rx="2"></rect>
+                        <path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"></path>
+                    </svg>
+                </button>
+                <a href="https://www.linkedin.com/in/jeevangiddaluru/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://twitter.com/jeevangiddaluru" target="_blank" rel="noopener noreferrer">X</a>
+                <a href="http://lattes.cnpq.br/7943858807147184" target="_blank" rel="noopener noreferrer">Lattes CV</a>
+                <a href="https://scholar.google.com/citations?user=ti1WaPUAAAAJ" target="_blank" rel="noopener noreferrer">Scholar</a>
+                <a href="https://www.webofscience.com/wos/author/record/G-8461-2016" target="_blank" rel="noopener noreferrer">Web of Science</a>
+                <a href="https://orcid.org/0000-0001-8043-7162" target="_blank" rel="noopener noreferrer">ORCID</a>
+                <a href="https://www.researchgate.net/profile/Jeevan-Giddaluru" target="_blank" rel="noopener noreferrer">ResearchGate</a>
+            </nav>
+            <p id="email-status" role="status"></p>
         </main>
     </div>
 </body>
