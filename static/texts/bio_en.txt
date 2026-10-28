@@ -1,5 +1,3 @@
-I'm a researcher and software engineer working at the intersection of technology, public health, and bioinformatics. I hold a PhD from the University of São Paulo (USP), where I focused on digital epidemiology and disease surveillance.
-
-Currently, at Instituto Todos pela Saúde (ITpS), I build and maintain software systems that help turn complex public health data into useful information. My work spans back-end development, data engineering, and applied AI, with a particular interest in building tools that make research and public health data more accessible and actionable.
+I'm a researcher and software engineer working at the intersection of technology, public health, and bioinformatics. I hold a PhD from the University of São Paulo (USP), where I focused on digital epidemiology and disease surveillance. Currently, at Instituto Todos pela Saúde (ITpS), I build and maintain software systems that help turn complex public health data into useful information. My work spans back-end development, data engineering, and applied AI, with a particular interest in building tools that make research and public health data more accessible and actionable.
 
 I'll be sharing my projects, research, and things I learn along the way. Always happy to collaborate, exchange ideas, and have some fun building things!
